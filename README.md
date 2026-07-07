@@ -107,19 +107,4 @@ VALLEY_DEPTH = 0.003
 - `results/clustering/聚类图/TSNE_波形聚类_K3.png`
 - `results/clustering/聚类图/波形聚类K3_平均波形.png`
 
-## 上传到 GitHub
 
-这个项目包已经准备成 git 项目结构。因为 `data/` 和 `results/` 体积较大，默认通过 `.gitignore` 不提交到 GitHub。建议 GitHub 主要保存代码、notebook 和说明文档；数据和完整结果可以通过压缩包、网盘或 Git LFS 另行管理。
-
-在 GitHub 网页端新建一个空仓库后，在项目根目录执行：
-
-```bash
-git init
-git add README.md requirements.txt .gitignore scripts notebooks docs reference
-git commit -m "Initial calcium waveform clustering project"
-git branch -M main
-git remote add origin https://github.com/你的用户名/你的仓库名.git
-git push -u origin main
-```
-
-如果确实要把小型示例数据也上传，可以新建 `data/example/`，只放少量示例 Excel，并相应调整 `.gitignore`。
