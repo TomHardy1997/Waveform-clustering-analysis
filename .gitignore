@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+~$*
+
+# 本地数据和大结果文件默认不提交到 GitHub。
+# 如果需要公开部分示例数据，可以单独放到 data/example/ 后再取消对应规则。
+data/included_excel/
+data/screened_0_20_excel/
+data/raw_excel_all/
+results/
+*.zip
